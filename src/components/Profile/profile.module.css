@@ -1,0 +1,7 @@
+.profile{
+    background-color: rgb(242, 239, 239);
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px grey;
+    padding: 40px 10px;
+}

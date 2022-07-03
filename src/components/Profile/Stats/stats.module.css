@@ -1,0 +1,30 @@
+.stats{
+    display: flex;
+   justify-content: space-between;
+  
+}
+
+.stats>li {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    width: 105px;
+    align-items: center;
+    border: 1px solid black;
+    background-color: #b0aeae;
+    
+}
+
+.label{
+    color: rgb(42, 41, 41);
+    font-weight: 400;
+    font-size: 18px;
+   
+}
+
+.quantity{
+    font-weight: 600;
+    font-size: 30px;
+    
+    color: black;
+}
