@@ -22,7 +22,7 @@ img {
   height: auto;
 }
 
-a, ul, li, p {
+a, ul, li, p, h1, h2 {
   margin: 0;
   padding: 0;
 }
