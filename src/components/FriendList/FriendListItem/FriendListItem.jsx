@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const Span  = styled.span`
 display: block;
@@ -36,4 +37,13 @@ export const FriendListItem = ({friend}) => {
     <Img className="avatar" src={friend.avatar} alt="User avatar" width="48" />
     <P className="name">{friend.name}</P>
   </Li>
+}
+
+FriendListItem.propTypes = {
+    items: PropTypes.shape(
+                {isOnline: PropTypes.bool,
+                    avatar: PropTypes.string,
+                    name: PropTypes.string,
+                }
+            )
 }
